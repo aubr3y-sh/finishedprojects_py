@@ -1,7 +1,8 @@
-# steam api key:BC4BDB9BD96C4BC0D28098C3B9D7A84C
-# steamid64: 76561198158933598
+# steam api key: https://steamcommunity.com/dev/apikey
+# steamid64: https://steamid.io/
+
 import requests
-url = "https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=BC4BDB9BD96C4BC0D28098C3B9D7A84C&steamid=76561198158933598&format=json&include_appinfo=true"
+url = "https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=YOUR_KEY&steamid=YOUR_STEAMID&format=json&include_appinfo=true"
 
 def show_all_games():
     for game in data["games"]:
